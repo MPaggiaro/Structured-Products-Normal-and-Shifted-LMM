@@ -1,0 +1,37 @@
+bootstrap.m : function used for computing the bootstrap curve
+bucketshift.m: function used to shifte the forward curve
+capfloorprice.m: price cap/floor  
+capletprice.m: price caplet/floorlet
+cappricing.m: price caps in the portfolio 
+capspreadprice.m: price the cap spread used for hedging the digital risk
+dateAdd.m: add period to a date 
+dateMoveVec.m: shift forward the date specified to the closest business day 
+digitalfloorletprice.m: price a digital floorlet
+digitalfloorprice.m: price a digital floor
+dv01Swap.m: compute dv01 of a vanilla swap
+dv01vanillaCap.m: compute dv01 for a vanilla cap/floor
+eurCalendar.m: contains eur holidays
+extractdiscount.m: interpolate discounts along the zero curve
+forwardshift.m: shift the forward libor rate for the corresponding bucket
+getfixing.m: get the fixing deta for the libor fixing right before evaluation date 
+getportfolioDV01.m: compute the dv01 for the entire portfolio 
+getportfoliovega.m: compute the vega for the entire portfolio
+getspotvolatilities.m: strip spot volatilities for the normal and the shifted black model from flat volatilites
+hedgeportfolio.m: compute the parameters for delta&vega-hedging the portfolio
+interpolation.m:
+npvportfolio.m: compute the net present value for the portfolio
+priceDigital.m: price the digital floor 
+ratestodiscounts.m: compute discount curve from zero rate curve 
+readfixing.m: retrieve the fixing libor rate 
+readportfoliodata.m: read the excel data for the portfolio 
+runProject11.m: script to run the entire project
+steepenportfolio.m: compute the parameters for hedging the 2-10y the stepening position 
+swapformula.m: price a swap 
+swapformularolling.m: price a swap already started 
+swappricing.m: price all the swap in the portfolio 
+swaprate.m: compute the par swap rate for a IRS 
+vanillaCapFloorPrice.m: comput the price for a vanilla cap/floor 
+vegaRollingCap.m: copmute the price for a vanilla cap/floor contract with settlement date before the evaluation date 
+vegaVanillaCap.m: compute the vega for a vanilla swap 
+volatilityshift.m: shift the volatility curve on the chosen bucket 
+zerorates.m:  compute the zero rates
